@@ -5,3 +5,5 @@ The training dataset "Reviews.csv" can be downloaded from here: https://www.kagg
 
 As an attempt to make the code interactive, I have created an "input.txt" file in which reviews can be written to test the model.
 The "input.txt" file is converted into "input.csv" with appropriate "keys" to avoid data type discrepancy.
+
+"output.txt" is just to visualize data.
