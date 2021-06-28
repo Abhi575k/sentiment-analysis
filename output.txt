@@ -1,0 +1,59 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 568454 entries, 0 to 568453
+Data columns (total 10 columns):
+ #   Column                  Non-Null Count   Dtype 
+---  ------                  --------------   ----- 
+ 0   Id                      568454 non-null  int64 
+ 1   ProductId               568454 non-null  object
+ 2   UserId                  568454 non-null  object
+ 3   ProfileName             568438 non-null  object
+ 4   HelpfulnessNumerator    568454 non-null  int64 
+ 5   HelpfulnessDenominator  568454 non-null  int64 
+ 6   Score                   568454 non-null  int64 
+ 7   Time                    568454 non-null  int64 
+ 8   Summary                 568427 non-null  object
+ 9   Text                    568454 non-null  object
+dtypes: int64(5), object(5)
+memory usage: 43.4+ MB
+None
+[('the', 1628045), ('I', 1388076), ('and', 1228666), ('a', 1163164), ('to', 992367), ('of', 789652), ('is', 714264), ('it', 631252), ('for', 519983), ('in', 512394), ('this', 488313), ('that', 400467), ('my', 364021), ('with', 336250), ('have', 335286), ('but', 324932), ('are', 310933), ('was', 307861), ('not', 285094), ('you', 280382), ('/><br', 257584), ('on', 254970), ('as', 254503), ('like', 235778), ('so', 203856), ('they', 203316), ('The', 194293), ('be', 180387), ('or', 169872), ('at', 168004), ('these', 157305), ('just', 152618), ('them', 149775), ('very', 144857), ('This', 139552), ('from', 139405), ('It', 137737), ('good', 137156), ('one', 137012), ('has', 127925), ('can', 126059), ('taste', 123778), ('will', 118123), ('all', 117674), ('would', 117474), ('had', 117181), ('more', 116281), ('than', 113173), ('when', 109353), ('great', 107377), ('if', 106650), ('coffee', 105417), ('love', 104147), ('get', 103707), ('other', 101390), ('product', 98047), ('about', 97502), ('out', 95156), ('some', 93676), ('really', 93511), ('only', 92034), ('flavor', 91495), ('me', 91014), ('an', 87927), ('My', 86140), ('tea', 86140), ('your', 85016), ('food', 83581), ("it's", 82738), ('up', 82735), ("don't", 82345), ('no', 81412), ('little', 80549), ('because', 80041), ('were', 78928), ('much', 78183), ('it.', 78050), ('-', 77236), ('been', 75876), ('They', 75531), ('we', 74920), ('use', 74199), ('am', 71275), ('which', 69137), ('find', 68651), ('buy', 68507), ('also', 67457), ("I'm", 67220), ('by', 67086), ('make', 67029), ('tried', 66980), ("I've", 66785), ('do', 65601), ('what', 63921), ('any', 63454), ('too', 63358), ('even', 62729), ('eat', 58534), ('their', 58493), ('best', 56194)]
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 443777 entries, 0 to 568453
+Data columns (total 11 columns):
+ #   Column                  Non-Null Count   Dtype 
+---  ------                  --------------   ----- 
+ 0   Id                      443777 non-null  int64 
+ 1   ProductId               443777 non-null  object
+ 2   UserId                  443777 non-null  object
+ 3   ProfileName             443766 non-null  object
+ 4   HelpfulnessNumerator    443777 non-null  int64 
+ 5   HelpfulnessDenominator  443777 non-null  int64 
+ 6   Score                   443777 non-null  int64 
+ 7   Time                    443777 non-null  int64 
+ 8   Summary                 443777 non-null  object
+ 9   Text                    443777 non-null  object
+ 10  sentiment               443777 non-null  int64 
+dtypes: int64(6), object(5)
+memory usage: 40.6+ MB
+None
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 82037 entries, 1 to 568450
+Data columns (total 11 columns):
+ #   Column                  Non-Null Count  Dtype 
+---  ------                  --------------  ----- 
+ 0   Id                      82037 non-null  int64 
+ 1   ProductId               82037 non-null  object
+ 2   UserId                  82037 non-null  object
+ 3   ProfileName             82032 non-null  object
+ 4   HelpfulnessNumerator    82037 non-null  int64 
+ 5   HelpfulnessDenominator  82037 non-null  int64 
+ 6   Score                   82037 non-null  int64 
+ 7   Time                    82037 non-null  int64 
+ 8   Summary                 82012 non-null  object
+ 9   Text                    82037 non-null  object
+ 10  sentiment               82037 non-null  int64 
+dtypes: int64(6), object(5)
+memory usage: 7.5+ MB
+None
+[('the', 1181992), ('I', 1024243), ('and', 965143), ('a', 899139), ('to', 745538), ('of', 582731), ('is', 556699), ('it', 466157), ('for', 407238), ('in', 392080), ('this', 359340), ('that', 290000), ('my', 284160), ('with', 261370), ('have', 259788), ('are', 247783), ('but', 227127), ('you', 218769), ('was', 199880), ('on', 195332), ('as', 192981), ('/><br', 188128), ('not', 183754), ('like', 170321), ('so', 158961), ('they', 148440), ('The', 141495), ('or', 131116), ('at', 128270), ('be', 125867), ('these', 122547), ('them', 119602), ('This', 111995), ('very', 111927), ('just', 111521), ('good', 109403), ('It', 105409), ('one', 104236), ('has', 100401), ('from', 100363), ('can', 100061), ('great', 96973), ('love', 91170), ('all', 90293), ('will', 88954), ('than', 87923), ('more', 86378), ('taste', 86378), ('when', 84623), ('coffee', 79553), ('had', 78954), ('get', 78835), ('would', 76896), ('other', 76770), ('if', 75611), ('about', 73702), ('My', 72067), ('some', 71592), ('really', 71152), ('only', 70516), ('out', 69363), ('tea', 69286), ('flavor', 68798), ('me', 68434), ('product', 65634), ('an', 65231), ('your', 64556), ('little', 64011), ('food', 62626), ("it's", 62576), ('up', 62082), ('use', 60824), ('They', 60778), ("don't", 59779), ('we', 59722), ('no', 59014), ('been', 58690), ('it.', 58100), ('-', 57593), ('much', 57574), ('find', 56935), ('because', 56672), ('also', 54884), ("I've", 54355), ('am', 54104), ('make', 53022), ('tried', 51476), ('best', 50970), ('by', 50262), ('which', 50034), ("I'm", 49932), ('were', 49880), ('buy', 48983), ('do', 47497), ('any', 47443), ('too', 45734), ('eat', 44220), ('even', 44034), ('what', 42675), ('their', 42630)]
+[('the', 284137), ('I', 236965), ('and', 172763), ('a', 158631), ('to', 157844), ('of', 131526), ('it', 102572), ('is', 96308), ('this', 86815), ('in', 77335), ('was', 74840), ('that', 69695), ('for', 69239), ('not', 64407), ('but', 56187), ('my', 50970), ('have', 48861), ('with', 46681), ('/><br', 41498), ('like', 41057), ('on', 39164), ('are', 38203), ('you', 37212), ('they', 36329), ('as', 35855), ('be', 34210), ('The', 33033), ('so', 28766), ('from', 27141), ('had', 26874), ('at', 26558), ('would', 25652), ('just', 25397), ('or', 23707), ('taste', 23433), ('these', 22539), ('product', 22434), ('one', 21484), ('It', 20864), ('very', 20818), ('were', 20163), ('them', 19354), ('will', 18738), ('all', 18737), ('This', 18316), ('if', 17897), ('has', 17767), ('out', 17304), ('more', 16950), ('can', 16026), ('no', 15911), ('when', 15820), ('other', 15500), ('about', 15351), ('because', 15315), ('get', 15296), ('food', 15195), ('me', 15069), ('good', 14964), ('coffee', 14424), ('an', 14184), ('what', 14171), ('even', 14127), ('than', 13892), ('only', 13876), ("don't", 13805), ('your', 13610), ('it.', 13412), ('some', 13384), ('up', 13343), ('buy', 13304), ('really', 12999), ('-', 12853), ('flavor', 12363), ('been', 11919), ('much', 11910), ('am', 11677), ('which', 11489), ('do', 11302), ('by', 11277), ('their', 10963), ("it's", 10810), ('tried', 10780), ('any', 10733), ('we', 10669), ("I'm", 10512), ('after', 10443), ('bought', 10299), ('tea', 10251), ('there', 10101), ('she', 9965), ('/>I', 9947), ('did', 9694), ('They', 9679), ('too', 9577), ('dog', 9502), ('eat', 9378), ('made', 9236), ('first', 9145), ('got', 9106)]
